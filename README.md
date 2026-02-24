@@ -12,9 +12,10 @@ This repo is to contain the app launcher fixes that I've written for my computer
 The fixes are mainly things like launch env commands and .desktop files.  
 
 So far I have launchers for:
+* Github Desktop app  
 * Obsidian - a .desktop file that isn't included in the AppImage  
 * Steam - it keeps crashing on launch recently, apparently due to either Arch's removal of lib32 libraries (there's a fix for that too but YMMV) or Nvidia's latest 590 driver (or both)  
-* Github Desktop app  
+* FontLab 8  
 
 
 ### Steam
@@ -28,7 +29,7 @@ Try running this:
 
 The commands are formatted for fish, but also work in bash.  
 If they work, you can add them to your own .desktop launchers.  
-To do so, copy the main .desktop file from your system's `/usr/share/applications` folder into your home folder's `~/.local/share/applications` folder, then edit the new file.  
+To do so, copy the main .desktop file from your system's `/usr/share/applications` or `/usr/local/share/applications` folder into your home folder's `~/.local/share/applications` folder, then edit the new file.  
 Change the `Exec` line to match the new command; or to match your own customised command if you had to tweak it to work for you.  
 
 You can also save these as aliases for your terminal shell.  
