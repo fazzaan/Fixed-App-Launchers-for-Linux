@@ -24,7 +24,19 @@ Replace `fix-steam` with whatever you like, and the `env...` part with whatever 
 This is the part that integrates it into your desktop shell.  
 It's a .desktop file, and it lives in your OS's filesystem.  
 You can have your own version of the .desktop file and customise it to your liking.  
-If you give it the same name, it will overrule the one from the OS.  
+If you give it the same name, it will **overrule** the one from the OS.
+
+### Step 0. Use my .desktop file
+
+Did my `env...` command work for you?  
+If so, great!  
+* Download my .desktop file (#todo [add download link]),  
+* Move it to ~/.local/share/applications  
+* Update the desktop apps list database: 
+  `update-desktop-database ~/.local/share/application`  
+And you should be good to go!  
+
+**If my `env...` command didn't work for you, then follow the next steps.**  
 
 ### Step 1. Copy the .desktop file
 
