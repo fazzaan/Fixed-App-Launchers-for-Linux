@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=Obsidian AppImage
+Comment="Obsidian desktop application for Linux"
+
+Exec= sh -c 'exec "$HOME/Programmes/Obsidian.AppImage"'
+
+Terminal=false
+
+Type=Application
+Icon=obsidian
+StartupWMClass=obsidian
+X-AppImage-Version=1.5.3
+MimeType=x-scheme-handler/obsidian;
+Comment=Obsidian
+Categories=Office;X-Notes;
+
+# Remember to refresh your desktop entries with 
+#   update-desktop-database ~/.local/share/applications 
+# if this .desktop entry doesn't appear immediately.
+#
+# You can also launch .desktop files with 
+#   gtk-launch [Name]

@@ -61,12 +61,16 @@ If you have done as I said at the start:
 * renamed it to Obsidian.AppImage  
 * put it in ~/Programmes  
 
-... then you don't need to do anything else now -- it should work already :)  
+... then you have just one more task to do -- add the icons! :)  
 
 If you have done things your own way, then open up the `Obsidian,desktop` file and edit the `Exec=` command accordingly!  
 Make sure that these are correct:  
 * the address - `$HOME/path/to/your/file`  
 * the filename - `Obsidian-whatever.AppImage`  
+
+... then you also have just one more task to do -- add the icons! :)  
+
+.#todo [add steps to get icons from appimage - now it's gone 3AM]  
 
 ### Step 4. Test the .desktop file
 
