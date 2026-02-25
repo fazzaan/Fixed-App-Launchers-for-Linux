@@ -70,7 +70,7 @@ Make sure that these are correct:
 
 ... then you also have just one more task to do -- add the icons! :)  
 
-.#todo [add steps to get icons from appimage - now it's gone 3AM]  
+#todo [add steps to get icons from appimage - now it's gone 3AM]  
 
 ### Step 4. Test the .desktop file
 
